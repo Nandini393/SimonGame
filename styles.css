@@ -7,7 +7,7 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  7%;
+  margin:  6%;
   color: #FEF2BF;
 }
 
@@ -15,7 +15,7 @@ h2 {
   font-family: 'Press Start 2P', cursive;
   font-size: 1rem;
   color: white;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .main-container {
@@ -68,7 +68,9 @@ h2 {
 
 @media (max-width: 500px) {
 
-  #level-title {
-    margin: 35%;
+  .btn{
+    height: 130px;
+    width: 130px;
+    margin: 10px
   }
 }
